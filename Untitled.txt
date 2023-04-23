@@ -1,0 +1,9 @@
+const postTodoQuery = `INSERT INTO todo(id, todo, priority, status, category, due_date )
+       VALUES(
+           ${id},
+           '${todo}',
+           '${priority}',
+           '${status}',
+           '${category}',
+           '${dueDate}'
+       );`;
